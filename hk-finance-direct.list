@@ -1,0 +1,64 @@
+# Quantumult X - HK Finance Apps DIRECT
+# 用法：在 Quantumult X 的 [filter_remote] 中引用，并设置 force-policy=DIRECT
+# 规则目标：让香港银行、券商、行情辅助域名直连，避免金融 App 走代理触发风控
+
+# --- ZA Bank / 众安银行 ---
+HOST-SUFFIX,za.group,DIRECT
+HOST-SUFFIX,zabank.com.hk,DIRECT
+HOST-SUFFIX,zaintl.com,DIRECT
+HOST-SUFFIX,zaapi.com,DIRECT
+HOST-KEYWORD,zabank,DIRECT
+HOST-KEYWORD,za-bank,DIRECT
+HOST-KEYWORD,zaintl,DIRECT
+
+# --- HSBC HK / 汇丰香港 ---
+HOST-SUFFIX,hsbc.com.hk,DIRECT
+HOST-SUFFIX,hsbc.com,DIRECT
+HOST-SUFFIX,hsbcnet.com,DIRECT
+HOST-SUFFIX,hsbcprivatebank.com,DIRECT
+HOST-SUFFIX,hsbchk.com,DIRECT
+HOST-KEYWORD,hsbc,DIRECT
+
+# --- BOCHK / 中银香港 ---
+HOST-SUFFIX,bochk.com,DIRECT
+HOST-SUFFIX,bochk.com.hk,DIRECT
+HOST-SUFFIX,bankofchina.com,DIRECT
+HOST-SUFFIX,bankofchina.com.hk,DIRECT
+HOST-SUFFIX,boc.cn,DIRECT
+HOST-KEYWORD,bochk,DIRECT
+HOST-KEYWORD,bankofchina,DIRECT
+
+# --- 星财富 / 复星财富 ---
+HOST-SUFFIX,fosunwealth.com,DIRECT
+HOST-SUFFIX,fotechwealth.com.cn,DIRECT
+HOST-KEYWORD,fosunwealth,DIRECT
+HOST-KEYWORD,fosunhani,DIRECT
+
+# --- Chief Securities / 致富证券 ---
+HOST-SUFFIX,chiefgroup.com.hk,DIRECT
+HOST-SUFFIX,chiefsecurities.com.hk,DIRECT
+HOST-SUFFIX,chief.com.hk,DIRECT
+HOST-SUFFIX,chief-sec.com.hk,DIRECT
+HOST-KEYWORD,chiefgroup,DIRECT
+HOST-KEYWORD,chiefsecurities,DIRECT
+HOST-KEYWORD,chief-sec,DIRECT
+
+# --- 常见港股行情 / 交易辅助服务 ---
+HOST-SUFFIX,aastocks.com,DIRECT
+HOST-SUFFIX,aastocks.com.hk,DIRECT
+HOST-SUFFIX,etnet.com.hk,DIRECT
+HOST-SUFFIX,etnet.com,DIRECT
+HOST-SUFFIX,hkex.com.hk,DIRECT
+HOST-SUFFIX,hkexnews.hk,DIRECT
+HOST-SUFFIX,hkma.gov.hk,DIRECT
+HOST-SUFFIX,sfc.hk,DIRECT
+
+# --- 其他常见香港金融机构，按需保留 ---
+HOST-SUFFIX,hangseng.com,DIRECT
+HOST-SUFFIX,hangseng.com.hk,DIRECT
+HOST-SUFFIX,sc.com.hk,DIRECT
+HOST-SUFFIX,standardchartered.com.hk,DIRECT
+HOST-SUFFIX,citibank.com.hk,DIRECT
+HOST-SUFFIX,citi.com.hk,DIRECT
+HOST-SUFFIX,dbs.com.hk,DIRECT
+HOST-SUFFIX,dbs.com,DIRECT
