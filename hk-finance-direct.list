@@ -2,6 +2,15 @@
 # 用法：在 Quantumult X 的 [filter_remote] 中引用，并设置 force-policy=DIRECT
 # 规则目标：让香港银行、券商、行情辅助域名直连，避免金融 App 走代理触发风控
 
+# Quantumult X - HK Finance Apps DIRECT
+# Raw:
+# https://raw.githubusercontent.com/niyangup/ios_script_rule/main/hk-finance-direct.list
+#
+# Quantumult X [filter_remote]:
+# https://raw.githubusercontent.com/niyangup/ios_script_rule/main/hk-finance-direct.list, tag=HK Finance Direct, force-policy=DIRECT, enabled=true
+#
+# 金融 App 不建议开启 MitM；如果仍走代理，在请求记录里补 HOST-SUFFIX。
+
 # --- ZA Bank / 众安银行 ---
 HOST-SUFFIX,za.group,DIRECT
 HOST-SUFFIX,zabank.com.hk,DIRECT
